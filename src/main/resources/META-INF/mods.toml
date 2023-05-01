@@ -1,0 +1,34 @@
+modLoader="javafml" 
+
+loaderVersion="[45,)" 
+
+license="GNU GPLv3"
+
+[[mods]]
+modId="quasarlibrary"
+version="0.0.1-1.19.4" 
+
+displayName="Quasar Shader Library"
+displayURL="https://github.com/simonsvale"
+logoFile="examplemod.png" 
+
+credits="Thanks for this mod goes to Java" 
+authors="Simonsvale"
+
+description='''
+Quasar is a versatile shader library made using GLSL, for use in other mods for graphics effects.
+'''
+
+[[dependencies.quasarlibrary]] 
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[45,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.quasarlibrary]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4,1.20)"
+    ordering="NONE"
+    side="BOTH"
